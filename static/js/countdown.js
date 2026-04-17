@@ -21,7 +21,7 @@
       o.prepend(newVal);
     }
 
-    // 👉 Set your ORIGINAL start date & time (ONLY ONCE)
+  // 👉 Set your ORIGINAL start date & time (ONLY ONCE)
     var startTime = new Date("2026-03-28T17:52:00");
 
     // ✅ REAL WORKING TIMER
