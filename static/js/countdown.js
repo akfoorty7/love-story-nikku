@@ -21,21 +21,8 @@
       o.prepend(newVal);
     }
 
-    // 👉 Start time (5:52 PM today)
-    var now = new Date();
-    var startTime = new Date(
-      now.getFullYear(),
-      now.getMonth(),
-      now.getDate(),
-      17,
-      52,
-      0
-    );
-
-    // 👉 If before 5:52 PM → start from yesterday
-    if (now < startTime) {
-      startTime.setDate(startTime.getDate() - 1);
-    }
+    // 👉 Set your ORIGINAL start date & time (ONLY ONCE)
+    var startTime = new Date("2026-03-28T17:52:00");
 
     // ✅ REAL WORKING TIMER
     setInterval(function(){
